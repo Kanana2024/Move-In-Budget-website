@@ -17,7 +17,7 @@ $total = 0;
         <h3>Move-In Budget</h3>
         <ol>
             <li><i class="fas fa-home"></i> <a href="../html/home.html">Home</a></li>
-            <li><i class="fa-solid fa-couch"></i> <a href="livingroom.php">Products</a></li>
+            <li><i class="fa-solid fa-couch"></i> <a href="furniture.php">Products</a></li>
             <li><a href="cartpage.php"><i class="fa fa-shopping-cart"></i> Cart</a></li>
         </ol>
     </nav>     

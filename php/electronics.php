@@ -21,7 +21,7 @@ $result = mysqli_query($conn,$sql);
 
      <ol>
         <li><a href="../html/home.html"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="products.html"><i class="fas fa-couch"></i> Products</a></li>
+        <li><a href="furniture.php"><i class="fas fa-couch"></i> Products</a></li>
         <li><a href="cartpage.php"><i class="fa fa-shopping-cart"></i> Cart</a></li>
     </ol>
 </nav>

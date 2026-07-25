@@ -1,0 +1,92 @@
+section{
+    background-color: #FBC5D8;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+.receipt {
+    width: 82%;
+    max-width: 410px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    color: #E05286;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.receipt-header {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.receipt-subheader {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.divider {
+    border-top: 2px solid #E05286;
+    margin: 10px 0;
+}
+.dashed-divider {
+    border-top: 2px dashed #E05286;
+    margin: 15px 0;
+}
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.receipt-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.receipt-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.barcode-container {
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 4px;
+    font-size: 11px;
+}
+
+.barcode-lines {
+    font-family: 'Courier New', monospace;
+    font-size: 45px;
+    line-height: 35px;
+    letter-spacing: -2px;
+    margin-bottom: 5px;
+    opacity: 0.85;
+}
+.receipt::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(-135deg, #ffffff 5px, transparent 0), 
+                linear-gradient(135deg, #ffffff 5px, transparent 0);
+    background-size: 10px 10px;
+}
+.barcode-container{
+    text-align:center;
+}

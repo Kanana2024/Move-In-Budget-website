@@ -1,0 +1,122 @@
+body{
+font-family:'Inter',sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #ade8f4;
+}
+nav ol {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding-right: 25px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav h3{
+    padding-left: 15px;
+    font-size: 29px;
+    letter-spacing: 1px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-top:20px;
+font-family:'Cormorant Garamond',serif;
+}
+
+.products_page{
+display:flex;
+gap:40px;
+padding:40px;
+}
+
+.categories{
+width:220px;
+}
+
+.categories ul{
+list-style:none;
+padding:0;
+}
+
+.categories li{
+padding:10px 0;
+}
+
+.categories a{
+text-decoration:none;
+color:black;
+}
+
+.categories li:hover, .categories a:hover{
+color: #90e0ef;
+transform: translateX(5px);
+}
+
+.products_container{
+flex:1;
+display:flex;
+flex-wrap:wrap;
+gap:50px;
+justify-content:center;
+}
+
+/* PRODUCT CARD */
+
+.furniture_card{
+width:270px;
+border-radius:12px;
+overflow:hidden;
+background:white;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.furniture_card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.furniture_info{
+padding:15px;
+}
+
+.furniture_info h3{
+margin:0 0 6px;
+font-size:18px;
+}
+
+.furniture_info p{
+font-size:14px;
+color:#555;
+}
+
+.price{
+font-weight:600;
+display:block;
+margin-bottom:12px;
+}
+
+.furniture_info button{
+width:100%;
+padding:10px;
+border:none;
+border-radius:8px;
+background: #90e0ef;
+cursor:pointer;
+}
+.furniture_info button:hover{
+background:#90e0ef;
+color:white;
+}
+
